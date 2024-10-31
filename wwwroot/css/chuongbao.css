@@ -1,0 +1,21 @@
+﻿
+/* Styling for the bell icon */
+.notification-bell {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    
+    background-image: url('../images/chat.jpg'); /*mục ảnh icon chat box*/
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .notification-bell:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s;
+    }

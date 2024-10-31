@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm Tra Chất Lượng Hồ Nước</title>
+    
+    <link href="~/css/quality.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Bảng Tra Chất Lượng Hồ Nước</h1>
+        <form action="/submit" method="post">
+            <label for="ph">pH:</label>
+            <input type="number" id="ph" name="ph" step="0.1" placeholder="7.0" required>
+
+            <label for="temperature">Nhiệt độ (°C):</label>
+            <input type="number" id="temperature" name="temperature" step="0.1" placeholder="25.0" required>
+
+            <label for="dissolved_oxygen">Oxy hòa tan (mg/L):</label>
+            <input type="number" id="dissolved_oxygen" name="dissolved_oxygen" step="0.1" placeholder="8.0" required>
+
+            <label for="turbidity">Độ đục (NTU):</label>
+            <input type="number" id="turbidity" name="turbidity" step="0.1" placeholder="1.0" required>
+
+            <button type="submit">Gửi Kết Quả</button>
+        </form>
+    </div>
+</body>
+</html>
