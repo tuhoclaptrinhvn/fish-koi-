@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using YourNamespace.Data; // Thay thế YourNamespace bằng namespace thực tế của bạn
+using Managerment_fish.Data; // Thay thế YourNamespace bằng namespace thực tế của bạn //dòng đã thay thế
 using Microsoft.EntityFrameworkCore;
 
 public class FishController : Controller
