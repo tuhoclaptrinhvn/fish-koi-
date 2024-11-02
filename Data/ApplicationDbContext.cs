@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace YourNamespace.Data // Thay thế YourNamespace bằng namespace thực tế của bạn
+namespace Managerment_fish.Data // Thay thế YourNamespace bằng namespace thực tế của bạn // dòng đã thay thế
 {
     public class ApplicationDbContext : DbContext
     {
